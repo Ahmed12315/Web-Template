@@ -1,0 +1,113 @@
+body{
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+
+}
+#nav{
+    height: 70px;   
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    position: fixed;
+    top: 0;
+    right: 0;  
+}
+.nav{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    position: absolute;
+    top: 25px;
+ 
+}
+
+.close{
+    color: grey;
+    text-decoration: none;
+    float: right    ;
+    padding: 10px;
+    position: absolute;
+    right: 50px;
+}
+.close:hover{
+    color: black;
+}
+.header{
+    color: white;
+    font-size: larger;
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 150px auto;
+}
+.header>div{
+    margin-top: -40px;
+    text-align: center;
+}
+.body{
+    margin-top: -80px;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.body>div{
+    color: white;
+    border: 2px solid white;
+    height: 300px;
+    width: 270px;
+    margin:15px auto ;
+    text-align: center;
+
+    
+}
+.bluegradient{
+    background: linear-gradient(114.2deg, rgb(121, 194, 243) 22.6%, rgb(255, 180, 239) 67.7%);
+}
+.gradient{
+    background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+}
+.top{
+    margin-top: 40px;
+}
+
+h4{
+    font-weight: bolder;
+}
+
+button{
+    border-radius: 30px;
+    border-color: white;
+    height: 60px;
+    width: 180px;
+    font-weight: bolder;
+    color: grey;
+    background-color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(194, 187, 187);
+}
+.footer{
+    height: 100px;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #222222;   
+}
+.footer>div{
+    margin: auto;
+}
+a{
+    color: skyblue;
+}
+a:hover{
+    color: grey;
+}
+span{
+    color: white;
+}
+hr{
+    width: 150px;
+    border-style:groove ;
+    
+}
